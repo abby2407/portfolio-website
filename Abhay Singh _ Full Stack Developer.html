@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Abhay Singh | Full Stack Developer</title>
+  <meta name="author" content="Abhay Singh">
+  <meta name="description" content="I want to make things that make a difference.">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <!-- Navigation Menu-->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo teal-text active">
+          <h1>
+            Abhay Singh<span class="brown-text light">Full Stack Developer</span>
+          </h1>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark cyan-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i
+            class="mdi-av-web small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i
+            class="mdi-av-equalizer small"></i><span>Skills</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Awards section" href="#activities" class="waves-effect waves-dark red-text"><i
+            class="mdi-action-grade small"></i><span>Activities</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education"
+          class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Blog section" href="#blog"
+          class="waves-effect waves-dark yellow-text text-darken-2"><i
+            class="mdi-content-create small"></i><span>Blog</span></a>
+      </li>
+      <!-- <li class="bold">
+          <a aria-label="Open Andrew&#39;s resume in a new tab" href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a>
+        </li> -->
+    </ul>
+  </nav>
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Abhay Singh</a><span class="brown-text light">Full Stack Developer</span>
+    </div>
+  </nav>
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav" style="width: 190px; left: -200px;">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#blog" class="waves-effect waves-dark yellow-text text-dark-3"><i class="mdi-content-mail small"></i><span>Blog</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Andrew&#39;s Resume in a new tab" href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- Main Content-->
+  <main>
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>
+          Learning to code is learning to<span class="teal">create</span><br>and 
+          <span class="underline">innovate.</span>.
+        </h2>
+      </div>
+    </section>
+    <section id="about" class="section scrollspy" >
+      <h3 class="page-title white-text teal" >About</h3>
+      <div class="container flow-text">
+        <blockquote>
+          <h2>
+            I'm a proficient full stack developer who focusses on writing clean,
+            elegant, and efficient code.
+          </h2>
+        </blockquote>
+        <p>
+          I always had a passion to learn new things and sought out opportunities
+          and challenges that are meaningful to me.
+          
+        </p>
+        <p>
+          As a web developer, I enjoy using my obsessive attention to detail,
+          my unequivocal love for making things, and my mission-driven work
+          ethic. When not coding, I love to spend my time with my family and friends.
+        </p>
+      </div>
+    </section>
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://cellcommsolutions.com/" target="_blank"><img alt="cellcomm logo"
+                    src="images/cellcomm-logo.jpg" class="responsive-img center-block"></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://cellcommsolutions.com/" target="_blank"
+                      class="teal-text hoverline">Cellcomm Solutions ltd</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text">Full-Stack Software Developer</div>
+            <p>
+              <em class="grey-text">Cellcomm Solutions Ltd is a technology solutions provider with vast experience in
+                the areas of wireless
+                communication, embedded systems and RF coverage enhancement. Head quartered in Bangalore, INDIA</em>
+            </p>
+            <h6>Responsibilities</h6>
+            <ul>
+              <li>
+                Designing, writing, testing and implementation of new software.
+              </li>
+              <li>
+                Maintainence of Existing Software.
+              </li>
+              <li>
+                Working closely with project managers, sales and marketing Professionals.
+              </li>
+              <li>study/learn new Technologies which is beneficial for company. </li>
+              <li>
+                Tools: C#, ASP.net, SQL // JavaScript, AngularJs, jQuery // TFS //
+                HTML, CSS, Bootstrap.
+              </li>
+            </ul>
+            <h6>Accomplishments</h6>
+            <ul>
+              <li>
+                Contributed in extending the functionality of an existing .net application.
+              </li>
+              <li>
+                Designed and developed an application for logging
+                the details of the employees and visitors in and out of the company premises.
+              </li>
+              <li>
+                Implemented inline @tagging feature to increase app
+                share-ability
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Sep 2019 - Present | Bangalore, KA</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="http://www.niranta.in/" target="_blank"><img alt="cellcomm logo" src="images/niranta-logo.jpg"
+                    class="responsive-img center-block"></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://www.niranta.in/" target="_blank"
+                      class="teal-text hoverline">Niranta Solutions & Services pvt ltd</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text">Junior Developer</div>
+            <p>
+              <em class="grey-text">Niranta is a global management consulting, technology services and outsourcing
+                company, with its corporate office located in Bangalore,INDIA
+              </em>
+            </p>
+            <h6>Responsibilities</h6>
+            <ul>
+              <li>
+                Designing unique web scraping system using python to extract data from websites and storing raw data in
+                to sorted tabular format.
+              </li>
+              <li>
+                Apply linear and logistic regression techniques to mine data for subtle trends that helps to take key
+                decisions in products performance.
+              </li>
+              <li>
+                Maintainence of Existing Software.
+              </li>
+              <li>Study / learn new Technologies which is beneficial for company. </li>
+              <li>
+                Tools: Java, Spring boot, MySQL // JavaScript // GitHub //
+                HTML, CSS, Bootstrap.
+              </li>
+            </ul>
+            <h6>Accomplishments</h6>
+            <ul>
+              <li>
+                Contributed in extending the functionality of an existing Springboot application.
+              </li>
+              <li>
+                Designed and developed an application for logging
+                the details of the employees and visitors in and out of the company premises.
+              </li>
+              <li>
+                Implemented inline @tagging feature to increase app
+                share-ability
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Feb 2019 - Apr 2019 | Bangalore, KA</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Interpol8r-->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of Interpol8r web app" src="images/interpol8r.jpg" class="activator">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Interpol8r<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Experimental web app with homemade recursive string
+                  interpolation.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><strong>Ruby on Rails</strong> backend</li>
+                  <li><strong>Bulma CSS</strong> frontend</li>
+                  <li>String interpolation via <strong>recursion</strong></li>
+                  <li><strong>Dependency free</strong> JS config</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Interpol8r web app" href="https://interpol8r.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                      class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Interpol8r project"
+                    href="https://github.com/andrewborstein/interpol8r" target="_blank" data-position="top"
+                    data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Programming languages</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="images/java-logo.png" class="responsive-img">
+                <p>Java</p>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/csharp-logo.png" class="responsive-img">
+                <p>C#</p>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/python-logo.png" class="responsive-img">
+                <p>python</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">HTML & CSS</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="images/html5.png" class="responsive-img">
+                <p>HTML5</p>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/css3.png" class="responsive-img">
+                <p>CSS3</p>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/bootstrap.png" class="responsive-img">Bootstrap
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Javascript</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="images/javascript.png" class="responsive-img">Javascript
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/jquery.png" class="responsive-img">
+                <p>jQuery</p>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/angular.png" class="responsive-img">AngularJs
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/nodejs.png" class="responsive-img">
+                <p>nodejs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Web Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="images/spring-boot-logo.jpg" class="responsive-img">Springboot
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/django-logo-big.jpg" class="responsive-img">Django
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/flask-logo.png" class="responsive-img">Flask
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/asp.net-logo.png" class="responsive-img">ASP.Net
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">DevOps Tools</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="images/github.png" class="responsive-img">Github
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/maven-logo.jpeg" class="responsive-img">Maven
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/docker-logo.png" class="responsive-img">Docker
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/jenkins-logo.png" class="responsive-img">Jenkins
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Database</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="images/mysql-logo.jpg" class="responsive-img">MySQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/postgresql.png" class="responsive-img">PostgreSQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="images/mongodb.png" class="responsive-img">MongoDB
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="activities" class="section scrollspy">
+      <h3 class="page-title white-text teal">Extra Curricular Activities</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://reva.edu.in/concerts-and-expos" target="_blank"
+                      class="teal-text hoverline">Participation in Reva Expo</a></span>
+                </p>
+                <p class="brown-text">
+                  Reva University
+                </p>
+                <ul>
+                  <li>
+                    Participated in a Two days “REVA Expo” held on May 2nd and 3rd and exhibited the project titled
+                    <em><b>“Predicting Cryptocurrency prices using Machine Learning”.</b></em>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.skyfilabs.com/" target="_blank"
+                      class="teal-text hoverline">IOT using Arduino</a></span>
+                </p>
+                <p class="brown-text">skyfilabs center | Bangalore</p>
+                <ul>
+                  <li>
+                    Attended a Two days workshop on <em><b>“IOT using Arduino”</b></em> at Skyfi Labs Center, Bangalore.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://reva.edu.in/" class="teal-text hoverline">Reva University</a></span>
+                </p>
+                <p class="brown-text">Bangalore, INDIA</p>
+                <ul>
+                  <li>Master of Computer Application (M.C.A)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://srmu.ac.in/" class="teal-text hoverline">Shri Ramswaroop Memorial University</a></span>
+                </p>
+                <p class="brown-text">Lucknow, INDIA</p>
+                <ul>
+                  <li>Bachelor of Computer Application (B.C.A)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Email Abhay" href="mailto:abhaysingh.2407@gmail.com" data-position="top"
+            data-tooltip="Email abhay" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+              class="fa fa-envelope"></i></a><a aria-label="Email abhay" href="mailto:abhaysingh.2407@gmail.com"
+            class="hoverline">abhaysingh.2407@gmail.com</a>
+        </p>
+        <p>
+          <a aria-label="View Abhay on GitHub" href="https://github.com/abby2407" target="_blank"
+            data-position="top" data-tooltip="View Abhay on GitHub"
+            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a><a
+            aria-label="Abhay on Github" href="https://github.com/abby2407"
+            class="hoverline">github.com/abby2407</a>
+        </p>
+        <p>
+          <a aria-label="View Abhay on LinkedIn" href="https://www.linkedin.com/in/abhay-singh-a95521172" target="_blank"
+            data-position="top" data-tooltip="View Abhay on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i>
+              </a><a aria-label="Abhay on LinkedIn"
+            href="https://www.linkedin.com/in/abhay-singh-a95521172" class="hoverline">linkedin.com/in/abhay-singh-a95521172</a>
+        </p>
+      </div>
+    </section>
+    <section id="blog" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Blog</h3>
+      <div class="container">
+        <h4 id="posts-2019">Coming Soon</h4>
+
+      </div>
+    </section>
+  </main>
+  
+</body>
+</html>
